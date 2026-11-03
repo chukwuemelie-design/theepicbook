@@ -1,0 +1,41 @@
+========================================
+CI/CD Pipeline Failure Triage Report
+========================================
+Full Name: Nebeolisa Chiemelie Kelvin
+Timestamp: 2026-11-03T20:17:14Z
+Provider: Azure DevOps
+Organization: https://dev.azure.com/Dobiskaley
+Project: EpicBook-Deployment
+
+Category matches are heuristic evidence; counts represent findings.
+----------------------------------------
+Infrastructure Pipeline (Pipeline ID: 16)
+----------------------------------------
+Run ID: 22
+Branch: refs/heads/main
+Status: completed
+Result: succeeded
+Completion Time: 2026-11-02T17:54:12.194238+00:00
+[PASS] Infrastructure Pipeline — Latest completed run succeeded
+
+----------------------------------------
+Application Pipeline (Pipeline ID: 17)
+----------------------------------------
+Run ID: 31
+Branch: refs/heads/main
+Status: completed
+Result: succeeded
+Completion Time: 2026-11-03T06:01:40.318229+00:00
+[PASS] Application Pipeline — Latest completed run succeeded
+
+
+Summary:
+PASS: 2
+WARN: 0
+FAIL: 0
+ERROR: 0
+Overall Status: HEALTHY
+Script Exit Code: 0
+Report File: /home/usa/ansible-onboarding/theepicbook/week-10/assignment-05-pipeline-triage/reports/pipeline-health-report.txt
+Infrastructure Log: /home/usa/ansible-onboarding/theepicbook/week-10/assignment-05-pipeline-triage/reports/infra-last-run.log
+Application Log: /home/usa/ansible-onboarding/theepicbook/week-10/assignment-05-pipeline-triage/reports/app-last-run.log
