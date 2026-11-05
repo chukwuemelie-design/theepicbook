@@ -5,3 +5,6 @@ ansible/inventory.ini
 ansible/group_vars/*/vault.yml
 *.retry
 
+.env
+logs/
+backups/
